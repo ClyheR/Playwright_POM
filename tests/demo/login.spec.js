@@ -6,7 +6,7 @@ test('test', async ({ page }) => {
   const Login = new LoginPage(page)
 
   await Login.gotoLoginPage()
-  await Login.login(testData.validUser.username, testData.validUser.password);
+  await Login.login(testData.validUser1.username, testData.validUser1.password);
   // await expect(page.locator)
   // await page.goto('https://the-internet.herokuapp.com/login');
   // await page.getByRole('textbox', { name: 'Username' }).click();

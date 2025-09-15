@@ -2,6 +2,18 @@
     "validUser": {
         "username": "standard_user",
         "password": "secret_sauce"
+     },
+     "validUser1": {
+        "username": "tomsmith",
+        "password": "SuperSecretPassword"
+     },
+     "invalidUser": {
+        "username": "wrong_user",
+        "password": "wrong_pass"
+     },
+     "emptycredUser": {
+        "username": "",
+        "password": ""
      }
  
 }
