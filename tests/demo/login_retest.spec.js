@@ -2,7 +2,7 @@ import {test,expect} from '@playwright/test'
 import { LoginRetest } from '../../pages/login_2'
 import fs from 'fs';
 import { CartPage } from '../../pages/cart';
-const testData = JSON.parse(fs.readFileSync('C:/Playwright_pom_demo/utils/testData.json'));  //login credentials 
+const testData = JSON.parse(fs.readFileSync('./utils/testData.json'));  //login credentials 
 
 test('login test',async({page}) =>{
     const Login= new LoginRetest(page) // goes to login_2.js to get the data which redirects it to the testData.json
