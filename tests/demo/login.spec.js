@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 import { LoginPage } from '../../pages/login'
 import fs from 'fs';
-const testData = JSON.parse(fs.readFileSync('C:/Playwright_pom_demo/utils/testData.json'));
+const testData = JSON.parse(fs.readFileSync('utils/testData.json'));
 test('test', async ({ page }) => {
   const Login = new LoginPage(page)
 
