@@ -8,7 +8,7 @@ test('Check if user is already logged in', async ({ page }) => {
   // Check if inventory page is visible
   await expect(page.locator('.title')).toHaveText('Products');
 });
-test('Second test', async ({page}) =>{
-  await page.goto();
-  await expect(page.locator('.title').toHaveText('Products'));
-})
+test('Second test', async ({ page }) => {
+  await page.goto('https://www.saucedemo.com/inventory.html');
+  await expect(page.locator('.title')).toHaveText('Products');
+});
