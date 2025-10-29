@@ -52,4 +52,10 @@ async goCheckOut(firstName,lastName,postalCode){
   await this.checkContinue.click();
   await this.checkFinish.click();
   }
+  async checkOutt(){
+     await this.cartLink.click();
+  await this.checkoutButton.click();
+  await this.checkContinue.click();
+  await this.checkFinish.click();
+  }
 }

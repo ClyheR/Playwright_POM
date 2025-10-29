@@ -16,7 +16,7 @@ test('login test',async({page}) =>{
     // await page.locator('[data-test="shopping-cart-link"]').click();
     // const CartPage = await page.locator('.Cart_items').count();
     // await expect(page.locator('[data-test="shopping-cart-link"]')).toHaveText(CartPage.toString());
-    await Cart_open.goCheckOut(); //goes to checkout
+    await Cart_open.goCheckOut(testData.checkOutData.firstName, testData.checkOutData.lastName, testData.checkOutData.postalCode); //goes to checkout
 
 
 

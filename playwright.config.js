@@ -36,7 +36,11 @@ export default defineConfig({
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
     screenshot: 'only-on-failure',
-    video:'retain-on-failure'
+    video:'retain-on-failure',
+     launchOptions: {
+    args: ['--disable-autofill-keyboard-accessory-view[8]']
+  },
+    storageState: 'auth.json',
 
   },
 
