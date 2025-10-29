@@ -14,6 +14,11 @@
      "emptycredUser": {
         "username": "",
         "password": ""
+     },
+     "checkOutData": {
+      "firstName":"Manoj",
+      "lastName":"Abecs",
+      "postalCode":"12355"
      }
  
 }
