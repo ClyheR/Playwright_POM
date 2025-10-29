@@ -7,13 +7,6 @@
         "postalCode":"12345"
     },
     {
-        "username":"problem_user",
-        "password":"secret_sauce",
-        "firstName":"Ravi",
-        "lastName":"Quanna",
-        "postalCode":"67890"
-    },
-    {
         "username":"performance_glitch_user",
         "password":"secret_sauce",
         "firstName":"Sita",
