@@ -2,7 +2,7 @@ import {test, expect} from '@playwright/test'
 import { CartPage } from '../../pages/cart'
 import { LoginRetest } from '../../pages/login_2'
 import fs from 'fs'
-const postalData =  JSON.parse(fs.readFileSync('./utils/dataAll.json','utf-8'));
+const postalData =  JSON.parse(fs.readFileSync('./utils/dataALL.json','utf-8'));
 for(const data of postalData){
     test(`Checkout Flow test ${data.firstName}`,async({page})=>{
         const login = new LoginRetest(page);
